@@ -1,0 +1,5 @@
+# ADD 2 NUMBER USING PYTHON
+
+A=5
+B=6
+print( A+B )
