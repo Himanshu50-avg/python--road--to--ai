@@ -1,0 +1,6 @@
+# WAYS TO WRITE STRING
+
+A='HIMANSHU'
+B="HIMANSHU"
+C='''HIMANSHU'''
+print(A)
