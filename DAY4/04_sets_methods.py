@@ -1,0 +1,20 @@
+# methods of sets
+
+# 1.add()
+s={1,2,6,9}
+s.add(12)
+print(s)
+#2.copy()
+ss=s.copy()
+print(ss)
+#3.len()
+print(len(ss))
+#4.remove()
+s.remove(12)
+print(s)
+#5>pop()
+print(s.pop())
+print(s.pop())
+#6.clear()
+s.clear()
+print(s)
