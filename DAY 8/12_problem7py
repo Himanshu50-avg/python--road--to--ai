@@ -1,0 +1,14 @@
+'''to find the line number 
+where the word is present'''
+
+with open("log.txt")as f:
+    contents=f.readlines()
+contentno=1
+for i in contents:
+    if 'python' in i:
+        print("yes,present",contentno)
+        break
+    contentno+=1
+
+else:
+    print("no")
